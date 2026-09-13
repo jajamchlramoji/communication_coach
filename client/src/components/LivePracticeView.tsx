@@ -144,7 +144,7 @@ export const LivePracticeView: React.FC<LivePracticeViewProps> = ({
         socketRef.current = ws;
 
         ws.onopen = () => {
-          console.log('Connected to Recall server live proxy');
+          console.log('Connected to communication_coach server live proxy');
         };
 
         ws.onmessage = (event) => {

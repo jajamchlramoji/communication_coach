@@ -1,4 +1,4 @@
-# 🎙️ Recall — Private AI Communication Coach
+# 🎙️ communication_coach — Private AI Communication Coach
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 > *“Be clear enough to follow, structured enough to remember, light enough to stay with.”*
 
-**Recall** is a local-first, privacy-first personal speaking gym and private AI communication coach. Designed for high-standard professionals, team leads, and executives, it helps you become clearer in everyday communication, exceptionally memorable at storytelling, poised in public presentations and interviews, and naturally witty without forced jokes.
+**communication_coach** is a local-first, privacy-first personal speaking gym and private AI communication coach. Designed for high-standard professionals, team leads, and executives, it helps you become clearer in everyday communication, exceptionally memorable at storytelling, poised in public presentations and interviews, and naturally witty without forced jokes.
 
 </div>
 
@@ -40,7 +40,7 @@
 
 ## 🎯 Product Mission
 
-Most communication tools are either generic spell-checkers or awkward teleprompters. **Recall** is neither. It is an intentional **daily-practice speaking gym** that trains speech muscle memory through:
+Most communication tools are either generic spell-checkers or awkward teleprompters. **communication_coach** is neither. It is an intentional **daily-practice speaking gym** that trains speech muscle memory through:
 
 - **Clarity & Correctness**: Cutting preamble throat-clearing, replacing hedging with active ownership, and enforcing the Bottom-Line-Upfront (BLUF) standard.
 - **Memorable Storytelling**: Constructing narratives across 6 fundamental story markers: *Hook → Context → Tension → Insight → Concrete Example → Action Takeaway*.
@@ -53,7 +53,7 @@ Most communication tools are either generic spell-checkers or awkward teleprompt
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
-│                        RECALL SPEAKING STUDIO                          │
+│                   COMMUNICATION_COACH SPEAKING STUDIO                  │
 ├──────────────────────────┬─────────────────────────────────────────────┤
 │   Live Speaking Stage    │      Active Real-Time Feedback HUD          │
 │                          ├─────────────────────────────────────────────┤
@@ -109,7 +109,7 @@ Most communication tools are either generic spell-checkers or awkward teleprompt
 
 ## ⚡ Live Feedback HUD & Line-by-Line Rewrites
 
-Recall analyzes your speech **sentence-by-sentence in real time**:
+communication_coach analyzes your speech **sentence-by-sentence in real time**:
 
 ```text
 [0:14]  Score: 45/100 • Hedging
@@ -128,7 +128,7 @@ You Said: “Um, so basically we kind of had to delay the launch by two weeks be
 
 ## 🔒 Privacy & Ephemeral Storage Architecture
 
-Recall enforces uncompromising data privacy standards:
+communication_coach enforces uncompromising data privacy standards:
 
 ```
                   ┌────────────────────────────────────────────────────────┐
@@ -140,7 +140,7 @@ Recall enforces uncompromising data privacy standards:
                                               │ Audio chunks / WebSocket
                                               ▼
                   ┌────────────────────────────────────────────────────────┐
-                  │               RECALL LOCAL BACKEND PROXY               │
+                  │        COMMUNICATION_COACH LOCAL BACKEND PROXY         │
                   │   • Node.js 24 + Express + Native WebSockets           │
                   │   • GEMINI_API_KEY isolated in server/.env             │
                   │   • NEVER exposed to frontend, logs, or screenshots    │
@@ -163,7 +163,7 @@ Recall enforces uncompromising data privacy standards:
    - **3. Full Recording**: Audio recordings are saved strictly in your local browser’s `IndexedDB`. Zero media files are uploaded to any external server.
 3. **Observable Delivery Cues Only**:
    - Camera analysis runs 100% locally on-device via HTML5 canvas heuristics (measuring centering, head motion stability, and optical camera gaze).
-   - Recall **strictly prohibits and avoids pseudo-science**: it never claims to infer emotions, personality, confidence, intelligence, or audience reaction.
+   - communication_coach **strictly prohibits and avoids pseudo-science**: it never claims to infer emotions, personality, confidence, intelligence, or audience reaction.
 4. **Complete Data Sovereignty**:
    - Delete individual sessions with a single click in the **Session History** archive.
    - Permanently purge all databases and streak records with the **Clear All Data** control.
@@ -184,7 +184,7 @@ Recall enforces uncompromising data privacy standards:
 ## 📂 Project Structure
 
 ```text
-recall/
+communication_coach/
 ├── .env.example                     # Environment template (never commit real keys)
 ├── .gitignore                       # Standard rules ignoring .env, recordings, dist
 ├── package.json                     # Root workspace configuration
@@ -257,7 +257,7 @@ PORT=3001
 GEMINI_API_KEY=your_gemini_api_key_here
 DEMO_MODE=false
 ```
-*(If no API key is provided, Recall runs automatically in Demo Mode with realistic simulated speech streams and seeded debrief reports).*
+*(If no API key is provided, communication_coach runs automatically in Demo Mode with realistic simulated speech streams and seeded debrief reports).*
 
 ### 3. Install Dependencies
 ```bash
@@ -282,7 +282,7 @@ Compiles server TypeScript to `server/dist` and builds the client bundle with Vi
 
 ## 🧪 Automated Testing Suite
 
-Recall includes 21 comprehensive unit and integration tests across 6 test suites:
+communication_coach includes 21 comprehensive unit and integration tests across 6 test suites:
 
 ```bash
 npm test

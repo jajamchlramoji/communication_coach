@@ -11,7 +11,7 @@ export interface AnalyzeRequestPayload {
 }
 
 const COACHING_SYSTEM_INSTRUCTION = `
-You are the elite AI communication coach for Recall — a private speaking gym.
+You are the elite AI communication coach for communication_coach — a private speaking gym.
 Your mission is to help the user become:
 1. Clearer and more correct in everyday communication
 2. Exceptionally memorable at storytelling

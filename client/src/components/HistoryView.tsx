@@ -65,7 +65,7 @@ export const HistoryView: React.FC<HistoryViewProps> = ({
           </div>
           <h3 className="text-base font-bold text-white">Zero Persisted Sessions</h3>
           <p className="text-xs text-studio-400 leading-relaxed">
-            Recall is ephemeral by default. If you practice in "Process live, save nothing" mode, sessions vanish from memory immediately upon exit.
+            communication_coach is ephemeral by default. If you practice in "Process live, save nothing" mode, sessions vanish from memory immediately upon exit.
           </p>
           <button
             onClick={onStartNewPractice}

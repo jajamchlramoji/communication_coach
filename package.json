@@ -1,8 +1,8 @@
 {
-  "name": "recall-workspace",
+  "name": "communication_coach-workspace",
   "version": "1.0.0",
   "private": true,
-  "description": "Recall — Private AI Communication Coach",
+  "description": "communication_coach — Private AI Communication Coach",
   "workspaces": [
     "server",
     "client"

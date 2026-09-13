@@ -79,10 +79,10 @@ export const PrivacyModal: React.FC<PrivacyModalProps> = ({
               <span>3. Observable Delivery Signals Only</span>
             </div>
             <p>
-              Camera analysis is completely optional and runs 100% locally on your device via HTML5 canvas image processing. Recall measures only physical observable dynamics (centering within frame, head motion stability, and optical camera gaze).
+              Camera analysis is completely optional and runs 100% locally on your device via HTML5 canvas image processing. communication_coach measures only physical observable dynamics (centering within frame, head motion stability, and optical camera gaze).
             </p>
             <p className="text-studio-400 italic pt-1">
-              Recall strictly prohibits and never attempts to guess emotions, personality, psychological confidence, intelligence, or audience sentiment.
+              communication_coach strictly prohibits and never attempts to guess emotions, personality, psychological confidence, intelligence, or audience sentiment.
             </p>
           </div>
 

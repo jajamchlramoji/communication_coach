@@ -30,7 +30,7 @@ export const handler = async (event) => {
         const { GoogleGenAI } = await import('@google/genai');
         const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
         const prompt = `
-You are the speaking coach for Recall. Analyze this single spoken sentence from a ${scenario} presentation for a ${audience} audience:
+You are the speaking coach for communication_coach. Analyze this single spoken sentence from a ${scenario} presentation for a ${audience} audience:
 """
 ${lineText}
 """

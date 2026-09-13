@@ -84,7 +84,7 @@ app.post('/api/analyze-line', async (req, res) => {
         const { GoogleGenAI } = await import('@google/genai');
         const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
         const prompt = `
-You are the speaking coach for Recall. Analyze this single spoken sentence from a ${scenario} presentation for a ${audience} audience:
+You are the speaking coach for communication_coach. Analyze this single spoken sentence from a ${scenario} presentation for a ${audience} audience:
 """
 ${lineText}
 """
@@ -171,7 +171,7 @@ wss.on('connection', (ws: WebSocket, req) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Recall server listening on http://localhost:${PORT}`);
+  console.log(`communication_coach server listening on http://localhost:${PORT}`);
   console.log(`WebSocket proxy available at ws://localhost:${PORT}/ws/live`);
   console.log(`Gemini status: ${GEMINI_API_KEY ? 'API key loaded (proxy active)' : 'Demo mode (no key provided)'}`);
 });

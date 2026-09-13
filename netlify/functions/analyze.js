@@ -30,7 +30,7 @@ export const handler = async (event) => {
         const { GoogleGenAI } = await import('@google/genai');
         const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
         const prompt = `
-You are the elite, empathetic, and rigorous speech coach for "Recall", an AI communication gym.
+You are the elite, empathetic, and rigorous speech coach for "communication_coach", an AI communication gym.
 Analyze the following presentation transcript and delivery parameters:
 Session Scenario: ${payload.scenario}
 Practice Type: ${payload.practiceType}
