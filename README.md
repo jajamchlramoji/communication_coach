@@ -10,7 +10,7 @@
 [![Gemini Live API](https://img.shields.io/badge/Gemini_Live_API-3.5_Transcribe-8e24aa.svg?style=flat-square&logo=google)](https://ai.google.dev/)
 [![Gemini Flash](https://img.shields.io/badge/Gemini_Model-3.6_Flash-4285f4.svg?style=flat-square&logo=google)](https://ai.google.dev/)
 [![Tests](https://img.shields.io/badge/Vitest-21_Passed-10b981.svg?style=flat-square&logo=vitest)](https://vitest.dev/)
-[![Privacy](https://img.shields.io/badge/Privacy-Local--First_%26_Ephemeral-10b981.svg?style=flat-square&logo=shield)](https://github.com/jajamchlramoji/recall)
+[![Privacy](https://img.shields.io/badge/Privacy-Local--First_%26_Ephemeral-10b981.svg?style=flat-square&logo=shield)](https://github.com/jajamchlramoji/communication_coach)
 
 <br/>
 
